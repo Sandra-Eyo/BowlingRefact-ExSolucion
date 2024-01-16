@@ -1,4 +1,5 @@
 package edu.gorillas;
+
 public class ScoreCard {
 
     // Properties of the class //
@@ -33,11 +34,7 @@ public class ScoreCard {
     // Behaviours //
 
     public boolean normalRoll(char roll) {
-        if (roll != 'X' && roll != '/') {
-            return true;
-        } else {
-            return false;
-        }
+        return roll != 'X' && roll != '/';
     }
 
     public int computePins(char pin) {
