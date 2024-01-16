@@ -42,11 +42,7 @@ public class ScoreCard {
     }
 
     public  boolean strike(char strike) {
-        if (strike == 'X') {
-            return true;
-        } else {
-            return false;
-        }
+        return strike == 'X';
     }
 
     public int computeStrike(char strike) {
