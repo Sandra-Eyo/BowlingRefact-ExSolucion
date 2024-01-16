@@ -42,15 +42,12 @@ public class ScoreCard {
     }
 
     public  boolean strike(char strike) {
-        return strike == 'X';
+            return strike == 'X';
     }
 
     public int computeStrike(char strike) {
-        if (strike == 'X') {
-            return this.strike;
-        } else {
-            return this.zero;
-        }
+        return strike == 'X' ? this.strike
+                             : this.zero;
     }
 
     public  boolean spare(char spare) {
