@@ -51,11 +51,7 @@ public class ScoreCard {
     }
 
     public  boolean spare(char spare) {
-        if (spare == '/') {
-            return true;
-        } else {
-            return false;
-        }
+            return spare == '/';
     }
 
     public int computeSpare(char spare) {
