@@ -55,11 +55,8 @@ public class ScoreCard {
     }
 
     public int computeSpare(char spare) {
-        if (spare == '/') {
-            return this.spare;
-        } else {
-            return this.zero;
-        }
+        return spare == '/' ? this.spare
+                            : this.zero;
     }
 
     public void sumTotalScore(int score) {
