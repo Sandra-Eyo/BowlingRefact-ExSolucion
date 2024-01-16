@@ -1,4 +1,4 @@
-
+package edu.gorillas;
 public class ScoreCard {
 
     // Properties of the class //

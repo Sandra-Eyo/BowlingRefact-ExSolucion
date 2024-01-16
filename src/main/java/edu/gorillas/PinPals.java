@@ -1,4 +1,4 @@
-
+package edu.gorillas;
 import com.github.freva.asciitable.AsciiTable;
 
 public class PinPals {
